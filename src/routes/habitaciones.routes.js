@@ -28,8 +28,5 @@ rutasHabitacion.post('/', carga.single('img'),ctrHab.add,);
   
 rutasHabitacion.put('/:id', carga.single('img'),ctrHab.edit);
 
-rutasHabitacion.delete('/:id', carga.single('img'),ctrHab.delete);
-
-
 
 module.exports=rutasHabitacion;
