@@ -24,11 +24,11 @@ rutasHabitacion.get('/', ctrHab.obtener);
 
 rutasHabitacion.get('/:id', ctrHab.obtenerid);
 
-rutasHabitacion.delete('/:id', ctrHab.eiminarid);
-
 rutasHabitacion.post('/', carga.single('img'),ctrHab.add,);
   
 rutasHabitacion.put('/:id', carga.single('img'),ctrHab.edit);
+
+rutasHabitacion.delete('/:id', carga.single('img'),ctrHab.delete);
 
 
 
